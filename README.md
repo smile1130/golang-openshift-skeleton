@@ -54,7 +54,7 @@ It supports:
 
 9. Set `Name` to `golang1`
 
-10. Set `Git Repository URL` to `https://github.com/amsokol/openshift-golang-template.git` or click `Try It`
+10. Set `Git Repository URL` to `https://github.com/smile1130/golang-openshift-skeleton.git` or click `Try It`
 
 11. Click `advanced options` to add additional configuration parameters
 
@@ -151,7 +151,7 @@ GOPROJECT_CMD_CONFIG=-u "domain\username:passwd" smb://config.server.com/messagi
 ## Helper #1 - you can try golang template using S2I:
 
 ```bash
-s2i build https://github.com/amsokol/openshift-golang-template.git amsokol/golang-openshift:1.9.2-1 golang1 -e GOPROJECT_ROOT=github.com/amsokol/openshift-golang-template/example-golang-dep -e GOPROJECT_CMD=cmd/server --context-dir /example-golang-dep
+s2i build https://github.com/smile1130/golang-openshift-skeleton.git amsokol/golang-openshift:1.9.2-1 golang1 -e GOPROJECT_ROOT=github.com/smile1130/golang-openshift-skeleton/example-golang-dep -e GOPROJECT_CMD=cmd/server --context-dir /example-golang-dep
 ```
 
 ## Helper #2 - how to export/edit template from OpenShift
