@@ -10,13 +10,13 @@ It supports:
 
 ## Sample data to try golang template
 
-| Data                                 | Value                                                    |
-|--------------------------------------|----------------------------------------------------------|
-| Go                                   | Go v1.9.2                                                |
-| OpenShift                            | OpenShift Origin v1.5                                    |
-| Git repository                       | https://github.com/amsokol/openshift-golang-template.git |
-| Context directory                    | /example-golang-dep                                      |
-| Folder with main.go to build and run | /example-golang-dep/cmd/server                           |
+| Data                                 | Value                                                      |
+|--------------------------------------|------------------------------------------------------------|
+| Go                                   | Go v1.9.2                                                  |
+| OpenShift                            | OpenShift Origin v1.5                                      |
+| Git repository                       | https://github.com/smile1130/golang-openshift-skeleton.git |
+| Context directory                    | /example-golang-dep                                        |
+| Folder with main.go to build and run | /example-golang-dep/cmd/server                             |
 
 ## How to
 
